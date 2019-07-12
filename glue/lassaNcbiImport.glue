@@ -1,0 +1,8 @@
+# NCBI curated  
+#create module --fileName modules/orthobunyavirusNcbiImporter.xml ncbiImporter
+#module ncbiImporter import	
+
+# NCBI refseqs 
+create module --fileName modules/orthobunyavirusNcbiImporterReferences.xml ncbiImporterReferences
+module ncbiImporterReferences import
+

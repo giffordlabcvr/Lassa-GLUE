@@ -1,0 +1,51 @@
+
+delete project lassa
+
+create project lassa "GLUE project for the Bunyavirales" --minVersion 0.1.50
+
+schema-project lassa
+
+  run file glue/lassaSchemaExtensions.glue
+  exit
+
+project lassa
+
+  # load project settings
+  run file glue/projectSettings.glue
+
+  # create modules
+  run file glue/lassaModules.glue
+
+  # Import NCBI sources 
+  import source sources/ncbi-refseqs/
+ 
+  # Populate sequence table fields from GenBank XML
+  module genbankXmlPopulator populate
+
+  # Import metadata for exogenous reference sequences from tabular
+  #module lassaSideDataImporter 
+  #  populate -f tabular/lassa-db.tsv
+  #  exit
+
+  # Import data 
+  #module genbankXmlPopulator populate
+  #run script glue/loadExogenousData.js
+
+  # Define genome features
+  #run file glue/lassaFeatures.glue
+
+  # Create references
+  #run file glue/lassaReferences.glue
+
+  # Import lassa alignments 
+  #run file glue/lassaAlignments.glue
+
+  # Import alignment tree
+  #run file glue/lassaAlignmentTree.glue
+
+
+  # Validate
+  validate
+
+  exit
+

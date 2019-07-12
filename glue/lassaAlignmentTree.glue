@@ -1,0 +1,46 @@
+  # Constrained alignment tree
+
+  # L segment
+
+  create alignment AL_L_MASTER --refSeqName REF_L_MASTER
+
+  alignment AL_L_MASTER
+
+    set field displayName "Segment L"
+    add member -w "segment = 'L'"
+
+    extract child Bunyamwera    --refName REF_L_MASTER
+    demote member Bunyamwera    --whereClause "sequence.serogroup = 'Bunyamwera'" 
+ 
+    extract child Simbu         --refName REF_L_Simbu
+    demote member Simbu         --whereClause "sequence.serogroup = 'Simbu'" 
+
+    extract child California    --refName REF_L_LaCrosse
+    demote member California    --whereClause "sequence.serogroup = 'California'" 
+
+    #extract child Bwamba        --refName REF_L_Bwamba
+    #demote member Bwamba        --whereClause "sequence.serogroup = 'Bwamba'" 
+
+    #extract child Nyando        --refName REF_L_Nyando
+    #demote member Nyando        --whereClause "sequence.serogroup = 'Nyando'" 
+
+    #extract child Gamboa        --refName REF_L_Gamboa
+    #demote member Gamboa        --whereClause "sequence.serogroup = 'Gamboa'" 
+
+    #extract child Tete         --refName REF_L_Tete
+    #demote member Tete         --whereClause "sequence.serogroup = 'Tete'" 
+
+    #extract child Mapputta      --refName Mapputtta
+    #demote member Mapputta      --whereClause "sequence.serogroup = 'Mapputta'" 
+
+    #extract child Capim         --refName Capim
+    #demote member Capim         --whereClause "sequence.serogroup = 'Capim'" 
+
+    #extract child Guama         --refName Guama
+    #demote member Guama         --whereClause "sequence.serogroup = 'Guama'" 
+
+    #extract child Minatitlan    --refName Palestina
+    #demote member Minatitlan    --whereClause "sequence.serogroup = 'Minatitlan'" 
+
+    exit
+

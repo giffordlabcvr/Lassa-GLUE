@@ -1,0 +1,161 @@
+<genbankXmlPopulator>
+	
+	<gbFeature key="source">
+	
+		<gbQualifier name="isolate">
+			<propertyPopulator property="isolate_data.isolate"/>
+		</gbQualifier>
+		<gbQualifier name="country">
+			<propertyPopulator property="isolate_data.country"/>
+			<propertyPopulator property="isolate_data.place_sampled">
+				<matchPattern>^.*:(.*)$</matchPattern>
+				<outputTemplate>${g1?trim}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+
+		<gbQualifier name="host">
+			<propertyPopulator property="host_sci_name">
+
+				<!-- #### Dog -->			
+				<valueConverter>
+					<matchPattern>.*[Cc]anine.*</matchPattern>
+					<outputTemplate>Canis familiaris</outputTemplate>
+				</valueConverter>
+				<!-- #### Human -->							
+				<valueConverter>
+					<matchPattern>.*[Hh]omo [Ss]apiens.*</matchPattern>
+					<outputTemplate>Homo sapiens</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[Hh]uman.*</matchPattern>
+					<outputTemplate>Homo sapiens</outputTemplate>
+				</valueConverter>
+				<!-- #### Cow -->							
+ 				<valueConverter>
+					<matchPattern>.*[Cc]ow.*</matchPattern>
+					<outputTemplate>Bos taurus</outputTemplate>
+				</valueConverter>								
+ 				<valueConverter>
+					<matchPattern>.*[Bb]ovine.*</matchPattern>
+					<outputTemplate>Bos taurus</outputTemplate>
+				</valueConverter>				
+ 				<valueConverter>
+					<matchPattern>.*[Cc]attle.*</matchPattern>
+					<outputTemplate>Bos taurus</outputTemplate>
+				</valueConverter>	
+ 				<valueConverter>
+					<matchPattern>.*[Cc]alf.*</matchPattern>
+					<outputTemplate>Bos taurus</outputTemplate>
+				</valueConverter>				
+ 				<valueConverter>
+					<matchPattern>.*Bos taurus.*</matchPattern>
+					<outputTemplate>Bos taurus</outputTemplate>
+				</valueConverter>		
+ 				<valueConverter>
+					<matchPattern>.*[Bb]ull</matchPattern>
+					<outputTemplate>Bos taurus</outputTemplate>
+				</valueConverter>		
+				<!-- #### Sheep -->							
+ 				<valueConverter>
+					<matchPattern>.*[Ss]heep.*</matchPattern>
+					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>		
+ 				<valueConverter>
+					<matchPattern>.*[Oo]vine.*</matchPattern>
+					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>		
+ 				<valueConverter>
+					<matchPattern>.*Ovis aries (sheep).*</matchPattern>
+					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>	
+ 				<valueConverter>
+					<matchPattern>.*[Ll]amb.*</matchPattern>
+					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>
+ 				<valueConverter>
+					<matchPattern>.*[Dd]iseased sheep.*</matchPattern>
+					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>		
+				<!-- #### Goat -->							
+ 				<valueConverter>
+					<matchPattern>.*[Gg]oat.*</matchPattern>
+					<outputTemplate>Capra hircus</outputTemplate>
+				</valueConverter>		
+ 				<valueConverter>
+					<matchPattern>.*[Cc]aprine.*</matchPattern>
+					<outputTemplate>Capra hircus</outputTemplate>
+				</valueConverter>		
+				<!-- #### Deer/Cervids -->							
+ 				<valueConverter>
+					<matchPattern>.*[Ww]hite-tailed deer.*</matchPattern>
+					<outputTemplate>Odocoileus virginianus</outputTemplate>
+				</valueConverter>		
+ 				<valueConverter>
+					<matchPattern>.*[Ww]hite-tail deer.*</matchPattern>
+					<outputTemplate>Odocoileus virginianus</outputTemplate>
+				</valueConverter>
+ 				<valueConverter>
+					<matchPattern>.*[Mm]ule deer.*</matchPattern>
+					<outputTemplate>Odocoileus hemionus</outputTemplate>
+				</valueConverter>
+ 				<valueConverter>
+					<matchPattern>.*[Ee]land.*</matchPattern>
+					<outputTemplate>Taurotragus oryx</outputTemplate>
+				</valueConverter>		
+ 				<valueConverter>
+					<matchPattern>.*[Ii]land.*</matchPattern>
+					<outputTemplate>Taurotragus oryx</outputTemplate>
+				</valueConverter>		
+				<!-- #### Llama/Alpaca -->							
+ 				<valueConverter>
+					<matchPattern>.*[Ll]lama.*</matchPattern>
+					<outputTemplate>Lama glama</outputTemplate>
+				</valueConverter>		
+				<!-- #### Midges -->											
+ 				<valueConverter>
+					<matchPattern>.*[Cc]ulicoides sp.*</matchPattern>
+					<matchPattern>.*[Cc]ulicoides biting midges.*</matchPattern>
+					<matchPattern>.*[Cc]ulicoides</matchPattern>
+					<outputTemplate>Culicoides sp.</outputTemplate>
+				</valueConverter>		
+				<valueConverter>
+					<matchPattern>.*C.pulicaris.*</matchPattern>
+					<outputTemplate>Culicoides pulicaris</outputTemplate>
+				</valueConverter>		
+				<valueConverter>
+					<matchPattern>.*C.obsoletus.*</matchPattern>
+					<outputTemplate>Culicoides obsoletus</outputTemplate>
+				</valueConverter>						
+			</propertyPopulator>
+		</gbQualifier>				
+
+		<!-- #### SEGMENT -->			
+		<gbQualifier name="segment">
+			<propertyPopulator property="segment">
+				<matchPattern>(\d+)</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+				<overwriteExistingNonNull>false</overwriteExistingNonNull>
+			</propertyPopulator>
+		</gbQualifier>
+		
+		
+		<gbQualifier name="collection_date">
+			<propertyPopulator property="isolate_data.collection_month_day">
+				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="isolate_data.collection_month">
+				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
+				<outputTemplate>${g1?upper_case}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="isolate_data.collection_year">
+				<matchPattern>(\d{4})</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+		
+		
+		
+	</gbFeature>
+	
+</genbankXmlPopulator>

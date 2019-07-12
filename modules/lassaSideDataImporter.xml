@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<textFilePopulator>
+    <columnDelimiterRegex>\t</columnDelimiterRegex>
+    
+    <textFileColumn>
+        <identifier>true</identifier>
+        <header>Accession</header>
+        <property>sequenceID</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>Virus_name</header>
+        <property>full_name</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>Segment</header>
+        <property>segment</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>Serogroup</header>
+        <property>serogroup</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>Strain</header>
+        <property>strain</property>
+    </textFileColumn>
+
+    <skipMissing>true</skipMissing>
+
+</textFilePopulator>

@@ -1,0 +1,16 @@
+<!-- Orthobunyaviridae reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs</sourceName>
+  <specificPrimaryAccessions>
+
+	### Reference strains
+	
+	# Josiah
+	<primaryAccession>NC_004297</primaryAccession>
+	<primaryAccession>NC_004296</primaryAccession>
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>

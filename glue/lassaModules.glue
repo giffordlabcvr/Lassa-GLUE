@@ -1,0 +1,4 @@
+create module --fileName modules/peribunyaGenbankXmlPopulator.xml  genbankXmlPopulator
+create module --fileName modules/featureLocationTextToGlue.xml
+create module --fileName modules/unconstrainedAlignmentImporter.xml
+create module --fileName modules/peribunyaSideDataImporter.xml
