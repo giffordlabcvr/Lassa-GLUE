@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DQ010031</GBSeq_locus>
+    <GBSeq_length>299</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>01-MAY-2006</GBSeq_create-date>
+    <GBSeq_definition>Lassa virus strain Nig04-010 glycoprotein precursor (GPC) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>DQ010031</GBSeq_primary-accession>
+    <GBSeq_accession-version>DQ010031.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|DQ010031.1|</GBSeqid>
+      <GBSeqid>gi|67097565</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lassa mammarenavirus</GBSeq_source>
+    <GBSeq_organism>Lassa mammarenavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Arenaviridae; Mammarenavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..299</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Omilabu,S.A.</GBAuthor>
+          <GBAuthor>Badaru,S.O.</GBAuthor>
+          <GBAuthor>Okokhere,P.</GBAuthor>
+          <GBAuthor>Asogun,D.</GBAuthor>
+          <GBAuthor>Drosten,C.</GBAuthor>
+          <GBAuthor>Emmerich,P.</GBAuthor>
+          <GBAuthor>Becker-Ziaja,B.</GBAuthor>
+          <GBAuthor>Schmitz,H.</GBAuthor>
+          <GBAuthor>Gunther,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Lassa fever, Nigeria, 2003 and 2004</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 11 (10), 1642-1644 (2005)</GBReference_journal>
+        <GBReference_pubmed>16355508</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..299</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Omilabu,S.</GBAuthor>
+          <GBAuthor>Gunther,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Lassa Fever Activity in the North of Edo State, Nigeria, in 2003 and 2004</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..299</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gunther,S.</GBAuthor>
+          <GBAuthor>Omilabu,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-APR-2005) Virology, Bernhard-Nocht-Institute for Tropical Medicine, Bernhard-Nocht-Str. 74, Hamburg 20359, Germany</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..299</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>299</GBInterval_to>
+            <GBInterval_accession>DQ010031.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lassa mammarenavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Nig04-010</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum of patient 04-10</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11620</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>S</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Nigeria</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>48..&gt;299</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>48</GBInterval_from>
+            <GBInterval_to>299</GBInterval_to>
+            <GBInterval_accession>DQ010031.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>GPC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>48..&gt;299</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>48</GBInterval_from>
+            <GBInterval_to>299</GBInterval_to>
+            <GBInterval_accession>DQ010031.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>GPC</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein precursor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAY67753.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGQIITFFQEVPHVIEEVMNIVLIALSLLAILKGIYNVATCGLFGLVSFLLLCGRSCSTTYKGVYELQTLELDMANLNMTMPLS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aggattgcgcttttagagatctttgtgtgagtgggcttcatcaagccatggggcaaatcataacatttttccaggaagtacctcatgtcatagaggaagtgatgaacattgtcctgattgctctcagcctcctggcaatactgaagggaatctacaatgttgccacctgtggcctctttggattggtgtcctttctcctcttatgtggaagatcatgctcaacaacttacaagggtgtttatgagctacaaactctagagctagacatggcaaaccttaatatgacaatgcccttatct</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GU573543</GBSeq_locus>
+    <GBSeq_length>754</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>03-MAY-2010</GBSeq_create-date>
+    <GBSeq_definition>Lassa virus strain Soromba R isolate R242 polymerase gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>GU573543</GBSeq_primary-accession>
+    <GBSeq_accession-version>GU573543.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|GU573543.1|</GBSeqid>
+      <GBSeqid>gi|295322703</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lassa mammarenavirus</GBSeq_source>
+    <GBSeq_organism>Lassa mammarenavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Arenaviridae; Mammarenavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..754</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Safronetz,D.</GBAuthor>
+          <GBAuthor>Lopez,J.E.</GBAuthor>
+          <GBAuthor>Sogoba,N.</GBAuthor>
+          <GBAuthor>Traore,S.F.</GBAuthor>
+          <GBAuthor>Raffel,S.J.</GBAuthor>
+          <GBAuthor>Fischer,E.R.</GBAuthor>
+          <GBAuthor>Ebihara,H.</GBAuthor>
+          <GBAuthor>Branco,L.</GBAuthor>
+          <GBAuthor>Garry,R.F.</GBAuthor>
+          <GBAuthor>Schwan,T.G.</GBAuthor>
+          <GBAuthor>Feldmann,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Detection of Lassa virus, Mali</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 16 (7), 1123-1126 (2010)</GBReference_journal>
+        <GBReference_pubmed>20587185</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..754</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Safronetz,D.</GBAuthor>
+          <GBAuthor>Schwan,T.G.</GBAuthor>
+          <GBAuthor>Feldmann,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (26-JAN-2010) Intramural Research, LV/RML/NIAID/NIH, 903 S 4th St., Hamilton, MT 59840, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..754</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>754</GBInterval_to>
+            <GBInterval_accession>GU573543.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lassa mammarenavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Soromba R</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>R242</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>lung and liver from naturally infected hosts</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Mastomys natalensis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11620</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mali</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2009</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;754</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>754</GBInterval_to>
+            <GBInterval_accession>GU573543.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ADG01825.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>FCDNVYNSHKMREKYFYSGHMSQCPIGELTKAVTTRTYFEQEYFQCFKSVLLIMNANKLMGRYTHYKSRNLNFKFDIGKLSDDVRISERESNSEALSKALSLTSCTTAMLKNLCFYSQESPQSYNSVGPDTGRLKFSLSYKEQVGGNRELYIGDLRTKMFTRLIEDYFEALSLQLSGSCLNNEREFENAILSMKLNVSLAHVSYSMDHSKWGPMMCPFLFLAVLQNLIFLSKDLQADIKGRDYLSTLLTWH</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttctgtgacaatgtctacaatagtcacaagatgagagaaaaatatttttacagcggtcatatgtcccagtgtcccattggggaattaactaaagctgtgacaacaaggacatattttgagcaagagtatttccagtgttttaaatctgtgcttttgatcatgaatgcaaataagctcatgggaagatatactcattataagtcaaggaatctaaactttaaattcgatataggcaagctctcagatgatgtcagaatcagtgaaagagaaagcaattctgaagcattaagcaaggccctgtcactaacaagttgcaccactgctatgttaaagaatctttgtttttacagtcaagagtcaccacaatcttacaattcagtgggacctgacacagggcgattaaaattctctttgtcatataaagagcaggtaggtggtaacagggaattgtacattggtgatttaagaaccaagatgttcacaagattaattgaggattattttgaagcactgagtttgcaactatcaggtagttgtttaaacaatgagagagagtttgaaaatgccattttgtctatgaaactcaatgtctctttagcacacgtctcctacagtatggatcacagtaagtggggtccaatgatgtgtccatttttgtttttagctgttctacaaaacttgattttcctctctaaagatttacaggctgacatcaaaggaagagattacctctcaacactactaacatggcata</GBSeq_sequence>
+  </GBSeq>

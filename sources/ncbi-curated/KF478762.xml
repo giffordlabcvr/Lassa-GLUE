@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KF478762</GBSeq_locus>
+    <GBSeq_length>7253</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-DEC-2013</GBSeq_update-date>
+    <GBSeq_create-date>24-DEC-2013</GBSeq_create-date>
+    <GBSeq_definition>Lassa virus strain Soromba-R segment L, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KF478762</GBSeq_primary-accession>
+    <GBSeq_accession-version>KF478762.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KF478762.1|</GBSeqid>
+      <GBSeqid>gi|567840451</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lassa mammarenavirus</GBSeq_source>
+    <GBSeq_organism>Lassa mammarenavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Arenaviridae; Mammarenavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..7253</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Safronetz,D.</GBAuthor>
+          <GBAuthor>Sogoba,N.</GBAuthor>
+          <GBAuthor>Lopez,J.E.</GBAuthor>
+          <GBAuthor>Maiga,O.</GBAuthor>
+          <GBAuthor>Dahlstrom,E.</GBAuthor>
+          <GBAuthor>Zivcec,M.</GBAuthor>
+          <GBAuthor>Feldmann,F.</GBAuthor>
+          <GBAuthor>Haddock,E.</GBAuthor>
+          <GBAuthor>Fischer,R.J.</GBAuthor>
+          <GBAuthor>Anderson,J.M.</GBAuthor>
+          <GBAuthor>Munster,V.J.</GBAuthor>
+          <GBAuthor>Branco,L.</GBAuthor>
+          <GBAuthor>Garry,R.</GBAuthor>
+          <GBAuthor>Porcella,S.F.</GBAuthor>
+          <GBAuthor>Schwan,T.G.</GBAuthor>
+          <GBAuthor>Feldmann,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Geographic distribution and genetic characterization of Lassa virus in sub-Saharan Mali</GBReference_title>
+        <GBReference_journal>PLoS Negl Trop Dis 7 (12), E2582 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1371/journal.pntd.0002582</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24340119</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..7253</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Safronetz,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-JUL-2013) NIAID - Rocky Mountain Labs, NIH, 903 South 4th Street, Hamilton, MT 59840, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank Accession Numbers KF478762 and KF478765 represent the complete genome of Lassa virus strain Soromba-R.; ; ##Assembly-Data-START## ; Assembly Method :: GS DeNovo Assembler v. 2.6; CLC Genomics Workbench v. 4.0; Gene Codes Sequencher v. 5.0 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..7253</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>7253</GBInterval_to>
+            <GBInterval_accession>KF478762.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lassa mammarenavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Soromba-R</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Mastomys natalensis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11620</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mali</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lat_lon</GBQualifier_name>
+            <GBQualifier_value>10.589167 N 7.155833 W</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Jun-2009</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>125..6787</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>125</GBInterval_from>
+            <GBInterval_to>6787</GBInterval_to>
+            <GBInterval_accession>KF478762.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>L polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AHC95548.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEEDIAYVKDLISKYLVDNVKLSRQKLAFLVQTEPRMLLMEGLKLLSLCIEVDSCNANGCEHNSEDKSVEKILHEYGILTPSLCFVVPDGYKLTGNVLILLECFVRSSPANFEQKYIEDLKKLEQLKEDLKSVDISLIPLIDGRTSFYNEQLPDWVNDKLRDTLFSLLRYAQESNSLFEESEYSRLCESLSMTSGRLSGIESLNTLLDNRSNHYEEIITLCHQGINNKLTAHEVKLQIEEEYQVFRNRLRGGEIKCQFMRVDKNYLLNEFNKLYTDDAVVVEDDIEQLIYQFKRSSPILRFLYSDIEREGNKNNNQETKEFQMQCWRSFLNKVKSLRILNTRRKLLLIFDTLILLASRYDQTKHGCLQGWLGSSFVSVNDRLVSLESTKKDLKRWIERRQQIEASKSVTSSQNPSNNQILSSIIQKTITRALAALESVGISMDQFGVDMNVVSLDCYDSIMNFDVTGVTPTISYQKSQEEIFPYAMGVVELLQITDLERLSSLSLALINSMKTSSTVKLRQNEFGAARYQVVRCKEAYCQEFMLNNTKFQLIYQKTGECSKCYAINNDKIGEVCSFYADPKRYFPAIFSAEVLQTTVDTMITWIEDCSELEKELIHIKLLAKMILVLILAHPSKRSQKLLQNLRYFIMAYVSDYHHIDLMDKIKEKLITETEFLLYRLIRALINLILHDEVKSMMTNRFKFILNVSYMCHFITKETPDRLTDQIKCFEKFLEPKIEFGHVSVNPADTATEEELIDMVHHAKKFLSKKGCTAPGGPEYKKPGVSRRFLSLLTSSFNNGSLFKEKEVKKELKDPLITSGCATALDLASNKSVVVNKYTDGSRVLNYDFNKLTALAVTQLTEVFSRKGKHLLNRQDYEYKVQQAMSNLVLGSQQQTADVDRSDLDEILLEGGANEYFDQLRETVENIVDQYREPISLSSVKRSDGQPSINDLDELISNKFYIRLIKSELSCHMVEDFDHEILPDDFYKEFCDNVYNSHKMREKYFYSGHMSQCPIGELTKAVTTRTYFEQEYFQCFKSVLLIMNANKLMGRYTHYKSRNLNFKFDIGKLSDDVRISERESNSEALSKALSLTSCTTAMLKNLCFYSQESPQSYNSVGPDTGRLKFSLSYKEQVGGNRELYIGDLRTKMFTRLIEDYFEALSLQLSGSCLNNEREFENAILSMKLNVSLAHVSYSMDHSKWGPMMCPFLFLAVLQNLIFLSKDLQADIKGRDYLSTLLTWHMHKMVEIPFNVVSAMMKSFIKAQLGLRKSTSQSMTEDFFYSNFQIGVVPSHISSILDMGQGILHNTSDFYALISERFINYAIGSVCGGTIDAYTSSDDQISLFDQALTELMQRDPEEFKTLLEFHYYMSNQLNKFVSPKSVVGRFVAEFKSRFYVWGDEVPLLTKFVAAALHNIKCKEPHQLAETIDTIIDQSVANGVPVHLCNLIQLRTLSLLQYARYPIDPFLLNCETDVRDWVDGNRSYRIMRQIESLIPEACSKVRSMLRKLFNRLKTGQLHEEFTTNYLSGEHASSLRNLCNMLGVDPPSESDLEFSWLNLAAYHPLRMVLRQKVIYSGAVNLDDEKIPTIIKTIQNKLSSTFTRGAQKLLSEAINKSAFQSSIASGFVGLCKTLGSKCVRGPNKENLYIKSIQSLISSTQGIELLTNNYGIQYWRVPSNLRREKNSVVGYFRPLLWDYMCISLSTAIELGAWVLGEPKAAKPLEFFKHNPCDYFPLKPTASKLLEDRVGVNHIIHSLRRLYPSMFEKHILPFMSDLASTKMKWSPRIKFLDLCVALDVNCEALSLVSHIVKWKREEHYIVLSSELRLSHSRIHEPMVEERVVSTSDAVDNFMRQIYFESYVRSFVATTRTLGSFTWFPHKTSIPEGEGLQRLGPFSSFVEKVIYKGIERPMFKHDLMMGYAWIDFDVEPAKFNQNQLIASGLVNSKFESLEDFFTAIESLPPGSAKLSQTIRFQIKSQDASFKENFAIHLNFVGSINEQGKYLVQDVVAMYSGAVNSCVLSDCWRLVLSGPTFKGKSAWYVDTEEINEFMNDTNQLGKVTPVEIVIDADRLQFMEHDFVLVGPCSESVPLVVHRGGLWECNKRLASFSPVLQDQDLELFVKEVGDTSPSLLSGALSAMISDRLRLRMQWSGVDIVSVLKRVMPNNGLEVLNTVFEVVDDWVEFKGYALCFSKSRRRIMIQSSSGKLRLKGRTCEELLREEEQVEDIE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(6887..7186)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>7186</GBInterval_from>
+            <GBInterval_to>6887</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KF478762.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Z protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AHC95549.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGNKQAKDPKTESSPRASLIPDATHLGPQFCKSCWFENKGLVECNNHYLCLNCLSLLLSVSNRCPICKMPLPTKLKPITTPTAPQITRESITNPPPYTP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>crcgcaccgaggatcctaggcattttgactgtcttgtaagattgtcttatctaaggtcaagttctgtcatcttatagttgcagacttggtaagctttcccagacagtgatcctaacaactaagtatggaagaggacatagcttatgtaaaagacttaatctcaaagtacctggtggacaatgtgaaactctcaagacagaagttagcatttcttgtccagactgaacccagaatgctcttgatggagggattgaaacttctgtctctttgcattgaagttgattcatgcaatgcaaacggatgcgaacacaacagcgaggacaaatctgttgagaaaatccttcatgagtatggcattttgaccccatctctttgttttgtagtgccagatgggtataaattgactggcaatgttttgatcctgctagaatgttttgtgagatcatccccagccaactttgagcaaaaatacatagaggatctgaaaaaactggaacagttaaaagaagacttaaaaagtgttgatattagccttattccactgatagacggcagaacatccttctacaacgagcaactacctgattgggtcaatgataagttgagagacacacttttctctttattaaggtatgcccaggagagcaattcactttttgaggaatcagaatacagtaggctctgtgaatctttgtcgatgacctcagggagactttcaggaatcgagagtttaaacaccttgttagataatcgctctaatcattatgaggaaatcattacactgtgccatcaaggcatcaataataaactaacagctcatgaagtaaagttacaaattgaggaagagtatcaagtttttagaaacagactgagaggaggggaaataaagtgtcagtttatgagagttgacaaaaattatttactcaatgagttcaacaaactatacactgatgatgcagtggttgttgaagatgacattgagcagctgatttatcaatttaaaagatcatcacccatactaaggtttttgtattcagacatcgagagagaggggaacaagaacaacaatcaggaaactaaagaatttcaaatgcaatgttggaggtcattcttgaacaaagttaagtctctaaggattctaaatacgagaaggaaactcttgttaatttttgacacactaattcttcttgcgagtagatacgatcaaacaaaacatgggtgtctacaagggtggctggggtcttcctttgtcagtgtcaatgatagactagtttctttggagtcaaccaaaaaagaccttaagagatggatagaacggagacaacagattgaggcatcaaaatccgtaacatcctcccaaaacccgtcaaataatcaaatcttaagctcaattattcagaagaccatcacaagggctttggctgcactagaaagtgttgggataagtatggaccaatttggcgtagacatgaacgtagtcagtcttgattgttatgattcaattatgaatttcgatgtcactggggtaacccccacaattagttaccagaagtcacaagaggagattttcccatatgccatgggggtagttgaactgctgcagattactgatttggagagattgtcttcgttaagccttgctttgatcaattcaatgaaaacttcatctactgtcaaactgagacaaaatgagttcggggcagcaagatatcaagtggttagatgcaaggaggcttactgtcaggaatttatgctgaataacactaagtttcaactaatttatcaaaaaacaggagaatgctctaaatgttatgccattaataatgacaagattggtgaggtctgttctttttatgctgaccctaagaggtactttcctgcaattttctcagctgaggttttgcaaacaacagtagatactatgatcacttggattgaagattgtagtgaattagagaaggaattaattcacattaagctgttggcaaagatgattttggtattaatcttagcccacccaagcaaacgcagtcaaaaacttcttcagaaccttagatactttatcatggcttatgtatcagactaccaccatatagatcttatggacaaaataaaagagaaattgattactgagactgagtttctactttatagattaataagggctctaataaacctgattttacatgatgaggtgaaaagcatgatgactaatagatttaaattcattctgaacgtgtcatacatgtgtcactttataacaaaagagacaccagatagactgacagatcagataaagtgttttgagaagtttcttgagcctaaaatagaatttggccatgtgagtgtgaaccctgcagatacagctacagaggaggagttgatagacatggttcaccatgcaaagaagtttttaagtaaaaaggggtgcacagcccctggggggccagaatataaaaagcctggagtctcgaggagattcctttcccttctcacatcttctttcaacaatggttctttgtttaaagaaaaggaagtaaaaaaggagttaaaggaccctctcataacaagtggttgtgccactgccttagatttagcaagcaataaaagcgtggttgtgaataagtacactgatggctctagagtactaaattatgacttcaacaaacttactgcattagctgtgacacagctgactgaagttttctccagaaaaggaaaacaccttcttaatagacaagactatgaatacaaggtacagcaggcaatgagcaacttagtgttgggatctcagcaacaaactgctgatgttgacaggtctgatctggatgaaatcttgcttgaagggggcgcaaatgaatactttgatcagttaagagaaacagttgaaaatattgtggatcaatatagagaacctattagtctgagttcggtaaaaagaagtgatggtcaaccatcaattaatgatctggatgaattgatttccaataaattctacattaggttaattaagagtgagttgtcatgccatatggttgaggattttgaccatgaaattctgcctgatgatttttataaagaattctgtgacaatgtctacaatagtcacaagatgagagaaaaatatttttacagcggtcatatgtcccagtgtcccattggggaattaactaaagctgtgacaacaaggacatattttgagcaagagtatttccagtgttttaaatctgtgcttttgatcatgaatgcaaataagctcatgggaagatatactcattataagtcaaggaatctaaactttaaattcgatataggcaagctctcagatgatgtcagaatcagtgaaagagaaagcaattctgaagcattaagcaaggccctgtcactaacaagttgcaccactgctatgttaaagaatctttgtttttacagtcaagagtcaccacaatcttacaattcagtgggacctgacacagggcgattaaaattctctttgtcatataaagagcaggtaggtggtaacagggaattgtacattggtgatttaagaaccaagatgttcacaagattaattgaggattattttgaagcactgagtttgcaactatcaggtagttgtttaaacaatgagagagagtttgaaaatgccattttgtctatgaaactcaatgtctctttagcacacgtctcctacagtatggatcacagtaagtggggtccaatgatgtgtccatttttgtttttagctgttctacaaaacttgattttcctctctaaagatttacaggctgacatcaaaggaagagattacctctcaacactactaacatggcatatgcataaaatggttgaaatacccttcaatgttgtatcagctatgatgaagtcatttataaaagcccagttgggtttgagaaaaagcacctcacagtcgatgacggaggatttcttttactccaactttcagataggcgtggtaccctcccatatcagctctatacttgacatgggtcagggtatattacataacacatcggatttctatgctcttatttcagagagatttattaattatgccattggcagtgtctgtgggggcacaatagatgcctacacttcgagtgatgaccaaatttccttatttgatcaggctttaactgaactcatgcaaagagacccggaagaattcaagacattgttggagtttcattattacatgagtaatcaacttaataagtttgttagccccaaaagtgttgttggtaggtttgttgcagaatttaaatccagattttatgtgtggggggatgaggtccctttactaacaaaattcgttgctgcagccttacacaatatcaaatgtaaggaaccccaccagttagcagagacaattgacacaatcattgatcaatcagttgcaaatggagtccctgttcacttgtgcaatttgattcagctaaggactttgagtctcctgcaatatgctaggtaccctatcgacccatttcttctaaactgtgaaacagacgttagagattgggtggatggtaaccgcagctacagaatcatgagacagatagagagcttaatccctgaagcatgtagtaaggttagatctatgctaaggaaactgtttaacaggctgaagaccgggcaacttcatgaagagtttacaacaaactatctttctggtgaacatgcgtcctcacttaggaatttatgtaatatgttaggtgttgatcctccatcagaatctgatttagagttttcgtggttgaatctggctgcttaccaccctttgagaatggttctgagacagaaagttatatattcaggtgctgttaatcttgatgatgaaaaaatccccacaattattaagacgatccagaacaagttgtcgtcaactttcactcgaggggcacagaaactgttatcagaagctataaataagtcagcattccagagctctattgcatctggctttgtgggcttgtgcaaaacattgggtagcaaatgtgttcgggggccaaataaggaaaatctgtacatcaagtccattcaatcattgatttctagcactcagggtattgagctcttaacgaacaattatgggatccagtattggagggttccatcaaaccttagaagggaaaagaatagtgtggttggttattttagaccactgctatgggactatatgtgcatttctctatcaactgcaatagaactgggtgcatgggtattaggggaacctaaagcagccaaaccactggagtttttcaagcacaatccttgtgattatttccctttgaagccgactgcatcaaaactacttgaagacagggtgggtgttaatcatatcattcattctctaagaagactgtacccatcaatgtttgagaagcacatattgccatttatgagcgatttggcttccacaaagatgaagtggtcacccaggataaagtttctggatctttgtgtagcactagatgtgaactgtgaggctctatctcttgtgtcgcacatagtcaagtggaagagggaagaacattacatagtgttatcgtctgagttgaggttatctcatagcaggatccatgagcccatggtggaggagagagttgtgagtaccagtgatgcagttgataacttcatgagacagatttattttgagtcttatgtgaggtcatttgtagctacaactagaactctaggatcctttacatggtttccacataagacaagcatcccagagggtgaggggctacaaagactaggcccattttcttcatttgtggagaaggtcatctacaagggaattgagagaccaatgtttaagcatgacctaatgatgggctacgcttggatagatttcgatgttgaaccagctaagttcaatcaaaaccaattgattgcatcaggattggtcaattctaaatttgagtcacttgaagacttttttactgctattgaatcacttcctccaggttccgcaaaattaagtcaaacaataaggtttcaaattaaaagtcaagatgctagctttaaagagaattttgccattcacctcaactttgttggctcaataaatgaacaaggaaaatatttggttcaagatgtggtagctatgtactctggtgcagtgaactcctgtgttttatcagattgttggagattggtgctgtctggtccaaccttcaaggggaaatcagcatggtatgtagatactgaagaaatcaatgagttcatgaatgacacaaatcagttagggaaggtgacccctgttgaaattgtcattgatgccgatagattacaatttatggaacatgattttgttttggtgggcccttgttctgaatcagttcctttggttgtacatagaggtgggttgtgggagtgtaacaagaggttggcttcttttagccctgttttgcaagaccaagaccttgagttatttgtaaaagaagttggtgatacatctcctagcctgctgagtggggcattgagtgccatgatatcagatagattgaggttaagaatgcagtggtcaggggtggacattgtctctgtattgaagagggtcatgcccaacaatggcttggaggtcctgaacactgtttttgaggtagtggacgattgggttgaatttaagggctatgcactatgcttcagtaagtcaaggagaagaattatgatacagtccagtagtggaaagttgaggttgaaaggcagaacatgtgaagagcttctcagggaagaagaacaggtcgaagacatagaataactgcccgagcgtggccgcctcccccgggggggcccccggcggggggtccccccggggggtgtcggggggaaggggtgattgtgctgtgtgttgaacgggttagggtgtgtatggtgggggattggtgatgctctccctggtgatttgtggtgctgttggcgtggttatcggcttgagcttcgtgggaagaggcatcttacagatagggcacctgttgctgacactcaaaagtagggagaggcagttgaggcacaggtagtggttgttacactcaactaaacctttgttttcaaaccaacaactcttgcaaaattgtggtccaaggtgcgtggcatccggaatgagactggcccttgggctgctctctgtctttggatctttggcttgcttattccccatttgctgagcctaagttgtgaagctctgtagaggaacgatcaaattgcctaggatcccccggtgcgcg</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JX845167</GBSeq_locus>
+    <GBSeq_length>339</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-NOV-2013</GBSeq_update-date>
+    <GBSeq_create-date>14-NOV-2013</GBSeq_create-date>
+    <GBSeq_definition>Lassa virus isolate JIR76 polymerase gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>JX845167</GBSeq_primary-accession>
+    <GBSeq_accession-version>JX845167.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JX845167.1|</GBSeqid>
+      <GBSeqid>gi|531063908</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lassa mammarenavirus</GBSeq_source>
+    <GBSeq_organism>Lassa mammarenavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Arenaviridae; Mammarenavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..339</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kronmann,K.C.</GBAuthor>
+          <GBAuthor>Nimo-Paintsil,S.</GBAuthor>
+          <GBAuthor>Guirguis,F.</GBAuthor>
+          <GBAuthor>Kronmann,L.C.</GBAuthor>
+          <GBAuthor>Bonney,K.</GBAuthor>
+          <GBAuthor>Obiri-Danso,K.</GBAuthor>
+          <GBAuthor>Ampofo,W.</GBAuthor>
+          <GBAuthor>Fichet-Calvet,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Two novel arenaviruses detected in pygmy mice, ghana</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 19 (11), 1832-1835 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3201/eid1911.121491</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24188212</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..339</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kronmann,K.C.</GBAuthor>
+          <GBAuthor>Nimo Paintsil,S.</GBAuthor>
+          <GBAuthor>Guirguis,F.</GBAuthor>
+          <GBAuthor>Kronmann,L.C.</GBAuthor>
+          <GBAuthor>Bonney,K.</GBAuthor>
+          <GBAuthor>Ampofo,W.</GBAuthor>
+          <GBAuthor>Fichet-Calvet,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-SEP-2012) Virology, Bernhard-Nocht Institute of Tropical Medicine, Bernhard-Nocht Strasse 74, Hamburg 20359, Germany</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: MacVector v. 12.5.0 ; Sequencing Technology :: HotShot ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..339</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>339</GBInterval_to>
+            <GBInterval_accession>JX845167.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lassa mammarenavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>JIR76</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Mus baoulei</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11620</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Ghana: Jirandogo</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>28-May-2011</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;339</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>339</GBInterval_to>
+            <GBInterval_accession>JX845167.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGT56417.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>EALSKALSLTNCTTAMLKNLCFYSQESPQSFNSVGPDTGRLKFSLSYKEQVGGNRELYIGDLRTKMFTRLIEDYFEALSLQLSGSCLNNEKEFENAILSMKLNVSMAHVSYSM</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaggcattgagtaaggctttgtctctaacaaactgtaccacagcaatgctaaagaatttgtgtttttatagtcaagagtcaccacagtcatttaattcagtgggtcctgacacaggtcgactcaagttttcattgtcatacaaggaacaggtaggtggcaatagagagttatacataggtgacctcaggacaaagatgttcactaggttgattgaggattattttgaggcattgagtctacagctctcagggagttgtttgaacaatgaaaaggagtttgaaaatgccatcctttccatgaagcttaatgtgtctatggcacatgtttcttatagtatg</GBSeq_sequence>
+  </GBSeq>

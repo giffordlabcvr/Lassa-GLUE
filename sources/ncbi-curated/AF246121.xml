@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF246121</GBSeq_locus>
+    <GBSeq_length>3391</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>15-APR-2004</GBSeq_update-date>
+    <GBSeq_create-date>21-DEC-2000</GBSeq_create-date>
+    <GBSeq_definition>Lassa virus strain AV glycoprotein precursor (GPC) and nucleoprotein (NP) genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF246121</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF246121.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF246121.2|</GBSeqid>
+      <GBSeqid>gi|46373061</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lassa mammarenavirus</GBSeq_source>
+    <GBSeq_organism>Lassa mammarenavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Arenaviridae; Mammarenavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3391</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gunther,S.</GBAuthor>
+          <GBAuthor>Emmerich,P.</GBAuthor>
+          <GBAuthor>Laue,T.</GBAuthor>
+          <GBAuthor>Kuhle,O.</GBAuthor>
+          <GBAuthor>Asper,M.</GBAuthor>
+          <GBAuthor>Jung,A.</GBAuthor>
+          <GBAuthor>Grewing,T.</GBAuthor>
+          <GBAuthor>ter Meulen,J.</GBAuthor>
+          <GBAuthor>Schmitz,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Imported lassa fever in Germany: molecular characterization of a new lassa virus strain</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 6 (5), 466-476 (2000)</GBReference_journal>
+        <GBReference_pubmed>10998376</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3391</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hass,M.</GBAuthor>
+          <GBAuthor>Golnitz,U.</GBAuthor>
+          <GBAuthor>Muller,S.</GBAuthor>
+          <GBAuthor>Becker-Ziaja,B.</GBAuthor>
+          <GBAuthor>Gunther,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A reverse genetics system for Lassa virus</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..3391</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gunther,S.</GBAuthor>
+          <GBAuthor>Emmerich,P.</GBAuthor>
+          <GBAuthor>Laue,T.</GBAuthor>
+          <GBAuthor>Kuhle,O.</GBAuthor>
+          <GBAuthor>Asper,M.</GBAuthor>
+          <GBAuthor>Jung,A.</GBAuthor>
+          <GBAuthor>Grewing,T.</GBAuthor>
+          <GBAuthor>ter Meulen,J.</GBAuthor>
+          <GBAuthor>Schmitz,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-MAR-2000) Virology, Bernhard-Nocht-Institut, Bernhard-Nocht-Strasse 74, Hamburg D-20359, Germany</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>4</GBReference_reference>
+        <GBReference_position>1..3391</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hass,M.</GBAuthor>
+          <GBAuthor>Golnitz,U.</GBAuthor>
+          <GBAuthor>Muller,S.</GBAuthor>
+          <GBAuthor>Becker-Ziaja,B.</GBAuthor>
+          <GBAuthor>Gunther,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-APR-2004) Virology, Bernhard-Nocht-Institut, Bernhard-Nocht-Strasse 74, Hamburg D-20359, Germany</GBReference_journal>
+        <GBReference_remark>Sequence update by submitter</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Apr 14, 2004 this sequence version replaced AF246121.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3391</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3391</GBInterval_to>
+            <GBInterval_accession>AF246121.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lassa mammarenavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>AV</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11620</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>54..1529</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>54</GBInterval_from>
+            <GBInterval_to>1529</GBInterval_to>
+            <GBInterval_accession>AF246121.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>GPC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>54..1529</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>54</GBInterval_from>
+            <GBInterval_to>1529</GBInterval_to>
+            <GBInterval_accession>AF246121.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>GPC</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein precursor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAG41802.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGQIVTFFQEVPHVIEEVMNIVLIALSILAVLKGLYNIATCGLIGLITFLLLCGRSCSSNLYKGVYELQSLDLNMETLNMTMPLSCTKNNSHHYIRVGNDTGLELTLTNTSILNHKFCNLSDAHKKDLYDHALMSIISTFHLSIPNFNQYEAMSCDFNGGKISVQYNLSHSYAIDAANHCGTVANGILQTFMRMAWGGSYIALDSGRGNWDCIMTSYQYLIIQNTTWENHCQFSRPSPIGYLGLLSQRTRDIYISRRLLGTFTWTLSDSEGNATPGGYCLTRWMLIEAELKCFGNTAVAKCNEKHDEEFCDMLRLFDFNKQAISRLKSEAQMSIQLINKAVNALINDQLIMKNHLRDIMGIPYCNYSKYWYLNHTITGKTSLPKCWLVSNGSYLNETHFSDDIEQQADNMITEMLQKEYMERQGKTPLGLVDLFVFSTSFYLISIFLRLVKIPTHRHIVGKPCPKPHRLNHMGICSCGLYKQPGVPVRWKR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>stem_loop</GBFeature_key>
+        <GBFeature_location>1543..1584</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1543</GBInterval_from>
+            <GBInterval_to>1584</GBInterval_to>
+            <GBInterval_accession>AF246121.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>complement(1591..3300)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>3300</GBInterval_from>
+            <GBInterval_to>1591</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>AF246121.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1591..3300)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>3300</GBInterval_from>
+            <GBInterval_to>1591</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>AF246121.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAG41803.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSASKEVKSFLWTQSLRRELSGYCSNIKLQVVKDAQALLHGLDFSEVSNVQRLMRKQRRDDSDLKRLRDLNQAVNNLVELKSTQQKSVLRVGTLSSDDLLTLAADLEKLKSKVTRTERPLSSGVYMGNLSSQQLDQRRALLNLIGMTNGSQGSQAGRDGVVRVWDVKNAELLNNQFGTMPSLTLACLTKQGQVDLNDVVQALTDLGLIYTAKYPNTSDLDRLTQSHPILNMIDTKKSSLNISGYNFSLGAAVKAGACMLDGGNMLETIKVSPQSMDGILKSILKVKRALGMFVSDTPGERNPYENILYKICLSGDGWPYIASRTSIVGRAWENTVVDLETDGKPQKIGSGNSNKSLQSAGFSAGLTYSQLMTLKDAMLQLDPNAKTWMDIEGRPEDPVEVALYQPISGCYIHFFREPTDLKQFKQDAKYSHGIDIADLFAAQPGLTSAVIEALPRNMVITCQGSEDIKKLLESQGRKDIKLIDIALSKIDSRKFENAVWDQYKDLCHMHTGVVVEKKKRGGKEEITPHCALMDCIMFDAAVSGGLNTLVLRAVLPRDMVFRTSTPRVVL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cgcaccggggatcctaggcattttggttgcgcaattcaggcttctttcacaatatggggcaaatagtgacattctttcaagaggtgcctcatgtgatagaagaggtgatgaacattgttcttatagcattgtctatattggcagtgttgaaaggtctctacaacattgccacatgcggcctcatcggcttgatcactttcctcttattatgtggaaggtcttgctcatccaacctctacaagggggtctatgaacttcaatctctggacctgaacatggagacactcaacatgaccatgcccctctcctgcacaaagaacaatagtcatcactacataagggttggcaatgacacagggctggaactgaccttgaccaacacgagcatactcaatcacaaattctgcaacctatcagatgctcacaagaaagacctatatgatcacgcactcatgagcataatctcaactttccacctgtctatacccaatttcaaccaatacgaagcaatgagttgtgacttcaatgggggcaaaatcagtgtgcagtacaatctaagccattcttatgctatagatgcagctaatcattgcggcacagtcgcgaatggcatcttgcagactttcatgagaatggcatggggtgggagctatattgctcttgactcaggccgtggaaactgggactgtattatgactagctatcaatatctgattattcagaacacaacctgggaaaatcactgtcagttctcaagaccatctcctattggttatcttggtctcctctcacagaggactagagacatttacattagcaggaggttgctgggcacattcacgtggacactgtcagactctgagggtaatgctacaccaggaggttattgtctgaccaggtggatgttaattgaagctgagttgaaatgctttggaaacacagcagtagcaaagtgtaatgaaaagcatgatgaagaattttgcgacatgctcagactttttgattttaataagcaggctataagtagattgaaatctgaagcacaaatgagcatccaactgatcaacaaagcagtgaatgctttgatcaacgatcaattaattatgaagaaccacttgcgagacatcatggggattccatattgtaattacagcaagtattggtacctcaatcatacaataactggcaaaacctcattacctaaatgttggcttgtatctaatggttcatacttgaatgaaacccatttttctgacgacatcgagcaacaagctgacaatatgatcacagagatgctacaaaaggaatacatggagaggcaagggaaaacgcctttgggtttagttgatctgtttgtgtttagcacaagtttttatctaattagtatcttcctccgactagtcaagattccaacccatagacacattgtgggcaaaccatgtcctaagccccacaggttgaaccacatgggcatttgttcttgcggcttatacaagcagcctggcgtccccgtgagatggaagagataggcctccagcaggagcccccgtgacccaccgcctgttggcggtgggtcacgggggcgtccatttacaggacgactcttggtgttgatgttctaaacaccatgtctctgggtagcacagctctgagcaccagtgtgttcaaccctcctgagacagcagcatcaaacatgatgcaatccatcaatgcacagtgaggggtgatctcttctttgccacctctcttcttcttctcaacaacaacacctgtgtgcatgtgacacaaatctttatattgatcccaaacagcattttcaaactttcttgaatcaatcttactaagagcaatgtcaatcagttttatatcctttctcccttgtgattcaagaagcttctttatgtcttcggacccttggcaagtgataaccatattccgggggagcgcctcaataacagcactggtcagacctggttgtgcagcaaacagatctgcgatgtcaattccatgagaatattttgcatcttgtttaaattgtttgagatcagtgggctctctgaaaaagtgtatataacacccagagataggctgatagagagcaacttccaccgggtcctctggcctcccttctatgtccatccacgtcttggcatttgggtcaagctgcaacattgcatctttaagggtcataagttgggagtaagttagtccagccgagaagcctgcagattggagagatttgttggagttaccactgccaattttctgtggtttcccatctgtttcaaggtccactacagtgttttcccaagcccttcctactattgatgtcctagatgcaatgtatggccacccgtcacctgataagcagattttgtagagtatgttttcataggggtttctctcacccggagtatctgagacgaacatcccaagagccctcttgaccttcaagatggattttaaaatgccatccattgattgaggcgaaaccttgattgtttctaacatgttgccaccatccagcatgcaggcacctgctttcactgcggcacccagactaaaattgtagcctgagatgttcagggagctcttcttggtgtcaatcatgtttaaaatgggatgactttgagttaacctatctaaatctgatgtgttaggatatttagctgtataaatcaagcccagatctgtgagtgcttgtaccacatcatttaagtcaacttgtccctgctttgtcagacatgctaatgtcaggctcggcattgtcccaaattgattgttcaacaattctgcattcttcacatcccagactcttaccactccatctctcccagcctgtgacccctgactgccgtttgtcatcccaatcaaatttagaagtgccctcctctgatcgagctgctgtgaacttaggtttcccatgtagacacctgaactcaagggcctttctgttcttgtaacttttgatttcagcttttctaaatcagccgccagagtcagtaaatcgtccgaacttagggtcccaactctcagcacacttttctgttgtgtcgatttcagctcaacaagattgttgacagcttgattcagatccctaagacgctttaggtcactatcatctctcctttgtttgcgcatcagccgctggacattgctgacctcagagaagtcaagcccatgcaagagagcttgagcgtccttcaccacttgaagtttgatattggaacagtaacccgacaactccctcctcagagattgtgtccataagaaagatttcacttctttggaggcactcattgttgagttactgaattgtgatgaaggctgtgagtggtcactaaagtgatcaatgcaaagcgcaatccaatagcctaggatccactgtgcg</GBSeq_sequence>
+  </GBSeq>
