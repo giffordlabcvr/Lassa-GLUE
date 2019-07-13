@@ -1,12 +1,12 @@
   table sequence
-    create field name VARCHAR 100  
-    create field full_name VARCHAR 100
-    create field genus VARCHAR 50
     create field strain VARCHAR 50
-    create field serogroup VARCHAR 50
-    create field type VARCHAR 20
     create field host_sci_name VARCHAR 100
-    create field segment  VARCHAR 20
+    create field segment VARCHAR 20
+    create field gb_length INTEGER
+    create field gb_pubmed_id VARCHAR
+    create field gb_create_date DATE
+    create field gb_update_date DATE
+    create field patent_related BOOLEAN
   exit
 
   table alignment
@@ -34,3 +34,6 @@
 
   create link sequence isolate_data
 
+  run file glue/m49_countries/m49SchemaExtension.glue
+ 
+  create link sequence m49_country -m MANY_TO_ONE

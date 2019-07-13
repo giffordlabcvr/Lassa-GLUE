@@ -1,4 +1,8 @@
-create module --fileName modules/peribunyaGenbankXmlPopulator.xml  genbankXmlPopulator
+create module --fileName modules/lassaGenbankXmlPopulator.xml  genbankXmlPopulator
 create module --fileName modules/featureLocationTextToGlue.xml
 create module --fileName modules/unconstrainedAlignmentImporter.xml
-create module --fileName modules/peribunyaSideDataImporter.xml
+create module --fileName modules/lassaSideDataImporter.xml
+create module --fileName modules/fastaExporter.xml fastaExporter
+create module --fileName modules/tabularUtilityCsv.xml
+create module --fileName modules/tabularUtilityTab.xml
+create module --fileName modules/blastFastaAlignmentImporter.xml

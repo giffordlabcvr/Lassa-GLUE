@@ -1,5 +1,31 @@
 <genbankXmlPopulator>
+
+
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="gb_pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>
+
+	<gbDivision>
+		<propertyPopulator property="patent_related">
+			<matchPattern>PAT</matchPattern>
+			<outputTemplate>true</outputTemplate>
+		</propertyPopulator>
+	</gbDivision>
+
+	<gbLength>
+		<propertyPopulator property="gb_length"/>
+	</gbLength>
 	
+	<gbUpdateDate>
+		<propertyPopulator property="gb_update_date"/>
+	</gbUpdateDate>
+	
+	<gbCreateDate>
+		<propertyPopulator property="gb_create_date"/>
+	</gbCreateDate>
+		
 	<gbFeature key="source">
 	
 		<gbQualifier name="isolate">
@@ -10,8 +36,14 @@
 			<propertyPopulator property="isolate_data.place_sampled">
 				<matchPattern>^.*:(.*)$</matchPattern>
 				<outputTemplate>${g1?trim}</outputTemplate>
-			</propertyPopulator>
+			</propertyPopulator>		
+			<isoCountryPropertyPopulator property="m49_country" codeStyle="ALPHA_3">
+			</isoCountryPropertyPopulator>
+
 		</gbQualifier>
+
+
+
 
 		<gbQualifier name="host">
 			<propertyPopulator property="host_sci_name">
@@ -132,12 +164,17 @@
 		<!-- #### SEGMENT -->			
 		<gbQualifier name="segment">
 			<propertyPopulator property="segment">
-				<matchPattern>(\d+)</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
+				<matchPattern>[a-zA-Z]</matchPattern>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</propertyPopulator>
 		</gbQualifier>
-		
+
+		<!-- #### STRAIN -->			
+		<gbQualifier name="strain">
+			<propertyPopulator property="strain">
+			</propertyPopulator>
+		</gbQualifier>
+				
 		
 		<gbQualifier name="collection_date">
 			<propertyPopulator property="isolate_data.collection_month_day">

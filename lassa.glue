@@ -1,7 +1,7 @@
 
 delete project lassa
 
-create project lassa "GLUE project for the Bunyavirales" --minVersion 0.1.50
+create project lassa "GLUE project for the Lassa Virus" --minVersion 0.1.50
 
 schema-project lassa
 
@@ -15,10 +15,13 @@ project lassa
 
   # create modules
   run file glue/lassaModules.glue
+  
+  run file glue/m49_countries/populateM49All.glue
 
   # Import NCBI sources 
   import source sources/ncbi-refseqs/
- 
+   import source sources/ncbi-curated/
+
   # Populate sequence table fields from GenBank XML
   module genbankXmlPopulator populate
 
@@ -27,9 +30,7 @@ project lassa
   #  populate -f tabular/lassa-db.tsv
   #  exit
 
-  # Import data 
-  #module genbankXmlPopulator populate
-  #run script glue/loadExogenousData.js
+
 
   # Define genome features
   #run file glue/lassaFeatures.glue
