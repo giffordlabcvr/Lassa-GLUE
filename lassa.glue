@@ -23,6 +23,7 @@ project lassa
    import source sources/ncbi-curated/
 
   # Populate sequence table fields from GenBank XML
+  run script glue/loadExogenousData.js
   module genbankXmlPopulator populate
 
   # Import metadata for exogenous reference sequences from tabular
@@ -30,13 +31,11 @@ project lassa
   #  populate -f tabular/lassa-db.tsv
   #  exit
 
-
-
   # Define genome features
-  #run file glue/lassaFeatures.glue
+  run file glue/lassaFeatures.glue
 
   # Create references
-  #run file glue/lassaReferences.glue
+  run file glue/lassaReferences.glue
 
   # Import lassa alignments 
   #run file glue/lassaAlignments.glue

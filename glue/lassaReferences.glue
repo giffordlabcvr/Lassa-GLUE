@@ -1,27 +1,7 @@
   # Declare reference sequences
 
   # L segment 
-  # MASTER reference Bunyamwera
-  create reference REF_L_MASTER     ncbi-refseqs NC_001925 
-  create reference REF_L_Simbu      ncbi-refseqs NC_018476
-  create reference REF_L_LaCrosse   ncbi-refseqs NC_004108
-  create reference REF_L_Bwamba     ncbi-refseqs NC_034479
-  create reference REF_L_Nyando     ncbi-refseqs NC_034492
-  create reference REF_L_Gamboa     ncbi-refseqs NC_028374
-  create reference REF_L_Mapputta   ncbi-refseqs NC_028374
-  
-  # M segment
-  # MASTER reference Bunyamwera
-  create reference REF_M_MASTER     ncbi-refseqs NC_001926
-  create reference REF_M_Simbu      ncbi-refseqs NC_018478
-  create reference REF_M_LaCrosse   ncbi-refseqs NC_004109 
-  create reference REF_M_Bwamba     ncbi-refseqs NC_034490
-  create reference REF_M_Nyando     ncbi-refseqs NC_034491
 
-  # N segment      
-  # MASTER reference Bunyamwera
-  create reference REF_N_MASTER     ncbi-refseqs NC_001927
-  create reference REF_N_Simbu      ncbi-refseqs NC_018477
-  create reference REF_N_LaCrosse   ncbi-refseqs NC_004110 
-  create reference REF_N_Bwamba     ncbi-refseqs NC_034480
-  create reference REF_N_Nyando     ncbi-refseqs NC_034481
+ # MASTER reference Josiah
+  create reference REF_L_MASTER     ncbi-refseqs NC_004297 
+  create reference REF_S_MASTER     ncbi-refseqs NC_001927

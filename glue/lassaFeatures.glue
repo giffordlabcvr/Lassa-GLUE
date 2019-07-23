@@ -12,26 +12,16 @@ feature N
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   exit
-  
-create feature S_3UTR -p S_whole_genome "S segment untranslated region"
-feature S_3UTR set field displayName "S segment 3' UTR"
 
-# Medium segment
-
-create feature M_whole_genome "M segment"
-feature M_whole_genome set field displayName "Segment 3"
-
-create feature M_5UTR -p M_whole_genome "M segment 5' untranslated region"
-feature M_5UTR set field displayName "5' UTR"
-
-create feature M -p M_whole_genome "M coding sequence"
-feature M
-  set field displayName M
+create feature GPC -p S_whole_genome "ORF GPC"
+feature GPC
+  set field displayName GPC
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   exit
-create feature M3_3UTR -p S_whole_genome "M segment 3' untranslated region"
-feature M3_3UTR set field displayName "M segment 3' UTR"
+ 
+create feature S_3UTR -p S_whole_genome "S segment untranslated region"
+feature S_3UTR set field displayName "S segment 3' UTR"
 
 
 # Large segment
@@ -48,6 +38,14 @@ feature L
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
   exit
+
+create feature Z -p S_whole_genome "ORF Z"
+feature Z
+  set field displayName N
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+
 create feature L_3UTR -p S_whole_genome "L segment 1 3' untranslated region"
 feature L_3UTR set field displayName "L segment 3' UTR"
 
