@@ -24,7 +24,7 @@ project lassa
 
   # Populate sequence table fields from GenBank XML
   run script glue/loadExogenousData.js
-  module genbankXmlPopulator populate
+  module lassaGenbankXmlPopulator populate
 
   # Import metadata for exogenous reference sequences from tabular
   #module lassaSideDataImporter 

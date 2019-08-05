@@ -3,5 +3,5 @@
   # L segment 
 
  # MASTER reference Josiah
-  create reference REF_L_MASTER     ncbi-refseqs NC_004297 
-  create reference REF_S_MASTER     ncbi-refseqs NC_001927
+  create reference REF_L_MASTER ncbi-refseqs NC_004297 
+  create reference REF_S_MASTER ncbi-refseqs NC_004296
