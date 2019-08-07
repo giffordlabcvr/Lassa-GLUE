@@ -1,7 +1,7 @@
 
 delete project lassa
 
-create project lassa "GLUE project for the Lassa Virus" --minVersion 1.1.46
+create project lassa "GLUE project for the Lassa Virus" --minVersion 1.1.47
 
 schema-project lassa
 
