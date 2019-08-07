@@ -2,14 +2,14 @@
 
   # L segment
 
-  create alignment AL_L_MASTER --refSeqName REF_L_MASTER
+  create alignment AL_L_MASTER --refSeqName REF_L_MASTER_NC_004297
 
   alignment AL_L_MASTER
 
     set field displayName "Segment L"
     add member -w "segment = 'L'"
 
-    extract child Bunyamwera    --refName REF_L_MASTER
+    extract child Bunyamwera    --refName REF_L_MASTER_NC_004297
     demote member Bunyamwera    --whereClause "sequence.serogroup = 'Bunyamwera'" 
  
     extract child Simbu         --refName REF_L_Simbu

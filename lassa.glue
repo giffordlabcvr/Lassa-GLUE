@@ -1,7 +1,7 @@
 
 delete project lassa
 
-create project lassa "GLUE project for the Lassa Virus" --minVersion 0.1.50
+create project lassa "GLUE project for the Lassa Virus" --minVersion 1.1.46
 
 schema-project lassa
 
@@ -9,6 +9,19 @@ schema-project lassa
   exit
 
 project lassa
+
+  # Note that there is significant confusion about which orientation Lassa sequences 
+  # should be posted in.
+  # So for example the two master RefSeqs are not in agreement with the viralzone page.
+  # According to Matej Vucak the standard should be:
+  # L Segment:
+  #     Z protein first, in forward direction
+  #     L protein second, in reverse complement
+  # S Segment:
+  #     GPC protein first, in forward direction
+  #     N protein second, in reverse complement
+  # Therefore the RefSeq NC_004296 for the S segment should be the other way round. 
+  # I have not addressed this yet but there is a full set of GLUE features for handling it.
 
   # load project settings
   run file glue/projectSettings.glue
@@ -20,7 +33,7 @@ project lassa
 
   # Import NCBI sources 
   import source sources/ncbi-refseqs/
-   import source sources/ncbi-curated/
+  import source sources/ncbi-curated/
 
   # Populate sequence table fields from GenBank XML
   run script glue/loadExogenousData.js
@@ -36,6 +49,9 @@ project lassa
 
   # Create references
   run file glue/lassaReferences.glue
+
+  # Feature locations
+  run file glue/lassaExplicitFeatureLocations.glue
 
   # Import lassa alignments 
   #run file glue/lassaAlignments.glue

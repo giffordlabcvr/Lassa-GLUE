@@ -1,0 +1,40 @@
+
+
+multi-delete feature_location -w "referenceSequence.name in ('REF_L_MASTER_NC_004297', 'REF_S_MASTER_NC_004296')"
+
+reference REF_L_MASTER_NC_004297
+  add feature-location L_whole_genome
+  feature-location L_whole_genome
+    add segment 1 7279
+    exit
+    
+  add feature-location Z
+  feature-location Z
+    add segment 66 365
+    exit
+    
+  add feature-location L
+  feature-location L
+    add segment 466 7122
+    exit
+  
+  exit
+  
+reference REF_S_MASTER_NC_004296
+
+  add feature-location S_whole_genome
+  feature-location S_whole_genome
+    add segment 1 3402
+    exit
+    
+  add feature-location N
+  feature-location N
+    add segment 101 1810
+    exit
+    
+  add feature-location GPC
+  feature-location GPC
+    add segment 1872 3347
+    exit
+  
+  exit
