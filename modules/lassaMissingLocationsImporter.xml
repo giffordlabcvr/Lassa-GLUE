@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<textFilePopulator>
+    <columnDelimiterRegex>\t</columnDelimiterRegex>
+    <textFileColumn>
+        <identifier>true</identifier>
+        <property>sequenceID</property>
+        <header>Accession</header>
+    </textFileColumn>
+    <textFileColumn>
+        <property>m49_country</property>
+        <header>Country</header>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+    <textFileColumn>
+        <property>lab_construct</property>
+        <header>lab_construct</header>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+    <textFileColumn>
+        <property>patent_related</property>
+        <header>patent_related</header>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+    <textFileColumn>
+        <property>segment</property>
+        <header>segment</header>
+    </textFileColumn>
+    <skipMissing>true</skipMissing>
+</textFilePopulator>
