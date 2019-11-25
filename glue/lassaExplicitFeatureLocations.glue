@@ -1,5 +1,3 @@
-
-
 multi-delete feature_location -w "referenceSequence.name in ('REF_L_MASTER_NC_004297', 'REF_S_MASTER_NC_004296')"
 
 reference REF_L_MASTER_NC_004297
