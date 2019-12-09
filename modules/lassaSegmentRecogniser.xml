@@ -1,0 +1,27 @@
+<blastSequenceRecogniser>
+
+  <blastRunner>
+    <generalSearch>
+      <word_size>8</word_size>
+    </generalSearch>
+    <restrictSearchOrResults>
+    </restrictSearchOrResults>
+  </blastRunner>
+  
+<referenceSequence>REF_S_MASTER_NC_004296</referenceSequence>
+<referenceSequence>REF_L_MASTER_NC_004297</referenceSequence>
+
+
+<recognitionCategory>
+<id>S</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_S_MASTER_NC_004296</referenceSequence>
+</recognitionCategory>
+
+<recognitionCategory>
+<id>L</id>
+<minimumBitScore>50</minimumBitScore>
+<referenceSequence>REF_L_MASTER_NC_004297</referenceSequence>
+</recognitionCategory>
+
+</blastSequenceRecogniser>

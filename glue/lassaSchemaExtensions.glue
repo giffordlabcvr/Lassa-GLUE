@@ -5,6 +5,9 @@
     create field gb_create_date DATE
     create field gb_update_date DATE
     create field patent_related BOOLEAN
+    create field excluded BOOLEAN 
+    create field excluded_reason VARCHAR 
+    create field recogniser_segment VARCHAR
   exit
 
   table alignment
