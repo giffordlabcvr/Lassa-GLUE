@@ -53,6 +53,9 @@ project lassa
   # Feature locations
   run file glue/lassaExplicitFeatureLocations.glue
 
+  # Create alignments
+  run file glue/lassaAlignments.glue
+
   # Validate
   validate
 
