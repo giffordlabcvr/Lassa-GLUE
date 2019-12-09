@@ -1,9 +1,9 @@
-  # Declare reference sequences
 
+  # Add sequences to alignments
+  create reference REF_L_MASTER_NC_004297 ncbi-refseqs NC_004297 # L segment   
+  create reference REF_S_MASTER_NC_004296 ncbi-refseqs NC_004296 # S segment 
 
-  # MASTER reference Josiah
-  # L segment 
-  create reference REF_L_MASTER_NC_004297 ncbi-refseqs NC_004297
-  
-  # S segment 
-  create reference REF_S_MASTER_NC_004296 ncbi-refseqs NC_004296
+  # Create aligner modules
+  create module --fileName modules/lassaCompoundAlignerSegmentS.xml
+  create module --fileName modules/lassaCompoundAlignerSegmentL.xml
+

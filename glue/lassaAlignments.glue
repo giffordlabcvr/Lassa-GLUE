@@ -1,0 +1,18 @@
+  delete alignment AL_Lassa_Segment_L_MASTER 
+  delete alignment AL_Lassa_Segment_S_MASTER
+  delete module lassaCompoundAlignerSegmentL
+  delete module lassaCompoundAlignerSegmentS
+
+  ### Create aligner modules    
+  create module --fileName modules/lassaCompoundAlignerSegmentL.xml
+  create module --fileName modules/lassaCompoundAlignerSegmentS.xml
+
+  ### Root alignments    
+  create alignment AL_Lassa_Segment_L_MASTER -r REF_L_MASTER_NC_004297
+  alignment AL_Lassa_Segment_L_MASTER add member --whereClause "segment = 'L' and patent_related = 'false'"
+  compute alignment AL_Lassa_Segment_L_MASTER lassaCompoundAlignerSegmentL 
+
+  create alignment AL_Lassa_Segment_S_MASTER -r REF_S_MASTER_NC_004296
+  alignment AL_Lassa_Segment_S_MASTER add member --whereClause "segment = 'S' and patent_related = 'false'"
+  compute alignment AL_Lassa_Segment_S_MASTER lassaCompoundAlignerSegmentS
+
