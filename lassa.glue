@@ -53,13 +53,6 @@ project lassa
   # Feature locations
   run file glue/lassaExplicitFeatureLocations.glue
 
-  # Import lassa alignments 
-  #run file glue/lassaAlignments.glue
-
-  # Import alignment tree
-  #run file glue/lassaAlignmentTree.glue
-
-
   # Validate
   validate
 

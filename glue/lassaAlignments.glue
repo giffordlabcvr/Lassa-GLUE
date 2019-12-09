@@ -1,5 +1,0 @@
-  module unconstrainedAlignmentImporter
-    import AL_ORTHOBUNYA_UNCONSTRAINED_L -f alignments/root/L/segment_L.fna
-    import AL_ORTHOBUNYA_UNCONSTRAINED_N -f alignments/root/N/segment_N.fna
-    import AL_ORTHOBUNYA_UNCONSTRAINED_M -f alignments/root/M/segment_M.fna
-    exit
