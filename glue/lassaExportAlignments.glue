@@ -1,0 +1,8 @@
+  delete module fastaAlignmentExporter
+
+  create module -f modules/fastaAlignmentExporter.xml
+
+  module fastaAlignmentExporter
+	export AL_Lassa_Segment_L_MASTER -r REF_L_MASTER_NC_004297 -f L -a -e -o alignments/lassa.L.aln.fna
+	export AL_Lassa_Segment_S_MASTER -r REF_S_MASTER_NC_004296 -f S -a -e -o alignments/lassa.S.aln.fna
+	exit
