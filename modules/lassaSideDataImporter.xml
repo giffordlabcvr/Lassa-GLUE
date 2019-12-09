@@ -7,25 +7,25 @@
         <header>Accession</header>
         <property>sequenceID</property>
     </textFileColumn>
-
-    <textFileColumn>
-        <header>Virus_name</header>
-        <property>full_name</property>
-    </textFileColumn>
     
+    <textFileColumn>
+        <header>patent_related</header>
+        <property>patent_related</property>
+    </textFileColumn>
+
     <textFileColumn>
         <header>Segment</header>
         <property>segment</property>
     </textFileColumn>
-    
-    <textFileColumn>
-        <header>Serogroup</header>
-        <property>serogroup</property>
+
+   <textFileColumn>
+        <header>gb_length</header>
+        <property>gb_length</property>
     </textFileColumn>
     
     <textFileColumn>
-        <header>Strain</header>
-        <property>strain</property>
+        <header>patent_related</header>
+        <property>patent_related</property>
     </textFileColumn>
 
     <skipMissing>true</skipMissing>

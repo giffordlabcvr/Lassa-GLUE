@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK656432</GBSeq_locus>
+    <GBSeq_length>1707</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-SEP-2019</GBSeq_update-date>
+    <GBSeq_create-date>30-SEP-2019</GBSeq_create-date>
+    <GBSeq_definition>Lassa mammarenavirus isolate LASV_R124 nucleoprotein (np) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK656432</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK656432.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK656432.1|</GBSeqid>
+      <GBSeqid>gi|1717505079</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lassa mammarenavirus</GBSeq_source>
+    <GBSeq_organism>Lassa mammarenavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Negarnaviricota; Polyploviricotina; Ellioviricetes; Bunyavirales; Arenaviridae; Mammarenavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1707</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Escalera-Zamudio,M.</GBAuthor>
+          <GBAuthor>Kouadio,L.</GBAuthor>
+          <GBAuthor>Matranga,C.B.</GBAuthor>
+          <GBAuthor>du Plessis,L.</GBAuthor>
+          <GBAuthor>Theze,J.</GBAuthor>
+          <GBAuthor>Pybus,O.G.</GBAuthor>
+          <GBAuthor>Calvignac-Spencer,S.</GBAuthor>
+          <GBAuthor>Leendertz,F.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Lassa Virus from Cote d'Ivoire: insights into the cryptic circulation of LASV in West Africa</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1707</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Escalera-Zamudio,M.</GBAuthor>
+          <GBAuthor>Kouadio,L.</GBAuthor>
+          <GBAuthor>Matranga,C.B.</GBAuthor>
+          <GBAuthor>du Plessis,L.</GBAuthor>
+          <GBAuthor>Theze,J.</GBAuthor>
+          <GBAuthor>Pybus,O.G.</GBAuthor>
+          <GBAuthor>Calvignac-Spencer,S.</GBAuthor>
+          <GBAuthor>Leendertz,F.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-MAR-2019) Zoology, The University of Oxford, S Parks Rd, Oxford, Oxfordshire OX1 3SY, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. R v 11 ; Assembly Name :: LASV genome ; Coverage :: 93% ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1707</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1707</GBInterval_to>
+            <GBInterval_accession>MK656432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lassa mammarenavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>LASV_R124</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>tissue</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Mastomys</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11620</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>S</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Cote d'Ivoire</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lat_lon</GBQualifier_name>
+            <GBQualifier_value>9.29 N 5.44 W</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>20-Aug-2013</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>L. Kouadio</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1707</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1707</GBInterval_to>
+            <GBInterval_accession>MK656432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>np</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1707</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1707</GBInterval_to>
+            <GBInterval_accession>MK656432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>np</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QDY64773.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSASKEVKSFLWTQSLRRELSGYCSNIKLQVVKDAQALLHGLDFSEVSNVQRLMRKQRRDDGDLKRLRDLNQAVNNLVELKSTQQKSVLRVGTLSSDDLLTLAADLEKLKSKVIRTERPLSSGVYMGNLSSQQLDQRRALLNMIGMTGGGQGAQAGRDGVVRVWDVRNAELLNNQFGTMPSLTLACLTKQGQVDLNDVVQALTDLGLIYTVKYPNTSDLDRLTQSHPILNMIDTKKSSLNISGYNFSLGAAVKAGACMLDGGNMLETIKISPQSMDGILKSILKVKRALGMFVSDTPGERNPYENILYKVCLSGDGWPYIASRTSIVGRAWENTVVDLEPDGKPQKLSSNGSNKSLQSAGFTAGLTYSQLMTLKDAMLQLDPNAKTWMDIEGRPEDPVEVALYQPSSGCYIHFFREPTDLKQFKQDAKYSHGIDVTDLFAAQPGLTSAVIEALPRNMVITCQGSEDIKKLLESQGRKDIKLIDIALSKTDSRKFENAVWDQYKDLCHMHTGVVVEKKKRGGKEEITPHCALMDCIMFDAAVSGGLNTLVLRAVLPRDMVFRTSTPKVVL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagtgcttccaaagaagtgaaatccttcttgtggacacaatcattgaggagagagttgtcaggctattgttccaatatcaaacttcaggtggtgaaagacgctcaagccctcttgcatgggcttgacttctctgaggttagcaatgttcaacggctaatgcgcaaacagaggagagatgacggtgacctaaagcgtcttagagacctgaatcaagctgtcaacaatcttgttgagctgaaatcgacacagcagaaaagtgtgctgagagttgggaccctaagctcagatgatctgttgactctagcagctgatctagaaaagctgaaatcaaaagttattagaacagaaaggcccttgagttcaggtgtctacatgggaaacttgagttcacaacaacttgatcaaaggagggcactcttaaatatgatagggatgacgggtggtggtcaaggagctcaggccgggagagatggggtggtgagagtctgggatgtaaggaatgcagaattgttgaacaatcagtttgggacaatgccgagtttaacattagcatgtctgacaaagcaggggcaagttgacttaaatgatgtggttcaggcactcacagatttgggcttaatctacacagtcaagtatcctaacacctcagatttagataggttgactcaaagtcaccccattctaaacatgattgacaccaagaagagctccttgaacatctcaggttacaattttagtctgggtgctgcagtaaaggcgggtgcctgcatgttggatggtggcaatatgttggaaacaatcaaaatctcacctcagtcgatggatggtattttaaaatccattttgaaggtcaagagagctcttgggatgtttgtttcagacactccgggtgaaagaaacccttatgagaacatactttataaagtctgtctatcaggtgatgggtggccatacattgcatctaggacatcaatagtagggagggcttgggagaacaccgtggtggaccttgaaccagatgggaagccacagaaactcagcagtaatggctccaataaatccctccagtctgcaggttttacagctggactaacctattctcaactcatgaccctcaaagatgcaatgttgcaacttgacccaaatgccaagacatggatggacatagaagggaggccagaggacccagtggaggttgctctctatcagcctagctctgggtgttatatacactttttccgagagcctactgacctcaagcagttcaaacaggatgcaaaatattctcatggaattgatgtcacagatctgtttgctgcacaaccaggcttaaccagtgctgttattgaagcacttcctcggaatatggttattacttgccaaggatctgaagacataaaaaagcttcttgaatcacaagggagaaaagacataaaattgattgatattgcccttagtaaaactgactctagaaagtttgagaatgctgtatgggatcaatacaaggatttgtgtcacatgcacacaggtgttgttgttgagaagaaaaagagaggtggcaaggaagaaatcactcctcattgtgcactgatggactgcatcatgtttgatgctgctgtttcaggagggctgaacacattggtcctgagggctgtactgcccagagacatggtgtttagaacatcaacaccaaaagtcgtcctg</GBSeq_sequence>
+  </GBSeq>

@@ -40,13 +40,13 @@ project lassa
   module lassaGenbankXmlPopulator populate
 
   # Import metadata for exogenous reference sequences from tabular
-  #module lassaSideDataImporter 
-  #  populate -f tabular/lassa-db.tsv
-  #  exit
+  module lassaSideDataImporter 
+    populate -f tabular/lassa-data.tsv
+    exit
 
   # Define genome features
   run file glue/lassaFeatures.glue
-
+  
   # Create references
   run file glue/lassaReferences.glue
 
