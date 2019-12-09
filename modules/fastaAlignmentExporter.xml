@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <fastaAlignmentExporter>
-    <idTemplate>${sequence.sequenceID}.${sequence.renderProperty('segment')}${sequence.renderProperty('gb_pubmed_id')}</idTemplate>
+    <idTemplate>${sequence.sequenceID}.${sequence.renderProperty('segment')}.${sequence.renderProperty('gb_pubmed_id')}.${sequence.isolate_data.renderProperty('isolate')}.${sequence.isolate_data.renderProperty('host_sci_name')}.${sequence.isolate_data.renderProperty('m49_country')}</idTemplate>
 </fastaAlignmentExporter>
