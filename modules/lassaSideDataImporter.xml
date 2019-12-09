@@ -4,8 +4,20 @@
     
     <textFileColumn>
         <identifier>true</identifier>
-        <header>Accession</header>
+        <header>accession</header>
         <property>sequenceID</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>host_sci_name</header>
+        <property>isolate_data.host_sci_name</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>strain</header>
+        <property>isolate_data.isolate</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
     </textFileColumn>
     
     <textFileColumn>
@@ -14,18 +26,13 @@
     </textFileColumn>
 
     <textFileColumn>
-        <header>Segment</header>
+        <header>segment</header>
         <property>segment</property>
     </textFileColumn>
 
    <textFileColumn>
         <header>gb_length</header>
         <property>gb_length</property>
-    </textFileColumn>
-    
-    <textFileColumn>
-        <header>patent_related</header>
-        <property>patent_related</property>
     </textFileColumn>
 
     <skipMissing>true</skipMissing>

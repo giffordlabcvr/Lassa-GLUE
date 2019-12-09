@@ -27,26 +27,29 @@
 	</gbCreateDate>
 		
 	<gbFeature key="source">
-	
+
+		<!-- #### STRAIN / ISOLATE ARE TREATED AS THE SAME-->	
 		<gbQualifier name="isolate">
 			<propertyPopulator property="isolate_data.isolate"/>
+		</gbQualifier>		
+		<gbQualifier name="strain">
+			<propertyPopulator property="isolate_data.isolate"/>
 		</gbQualifier>
+					
+		
 		<gbQualifier name="country">
 			<propertyPopulator property="isolate_data.country"/>
 			<propertyPopulator property="isolate_data.place_sampled">
 				<matchPattern>^.*:(.*)$</matchPattern>
 				<outputTemplate>${g1?trim}</outputTemplate>
 			</propertyPopulator>		
-			<isoCountryPropertyPopulator property="m49_country" codeStyle="ALPHA_3">
+			<isoCountryPropertyPopulator property="isolate_data.m49_country" codeStyle="ALPHA_3">
 			</isoCountryPropertyPopulator>
-
 		</gbQualifier>
 
 
-
-
 		<gbQualifier name="host">
-			<propertyPopulator property="host_sci_name">
+			<propertyPopulator property="isolate_data.host_sci_name">
 
 				<!-- #### Dog -->			
 				<valueConverter>
@@ -161,6 +164,7 @@
 			</propertyPopulator>
 		</gbQualifier>				
 
+
 		<!-- #### SEGMENT -->			
 		<gbQualifier name="segment">
 			<propertyPopulator property="segment">
@@ -169,13 +173,7 @@
 			</propertyPopulator>
 		</gbQualifier>
 
-		<!-- #### STRAIN -->			
-		<gbQualifier name="strain">
-			<propertyPopulator property="strain">
-			</propertyPopulator>
-		</gbQualifier>
-				
-		
+	
 		<gbQualifier name="collection_date">
 			<propertyPopulator property="isolate_data.collection_month_day">
 				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
@@ -190,8 +188,7 @@
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
 		</gbQualifier>
-		
-		
+			
 		
 	</gbFeature>
 	

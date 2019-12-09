@@ -7,12 +7,12 @@
   create module --fileName modules/lassaCompoundAlignerSegmentL.xml
   create module --fileName modules/lassaCompoundAlignerSegmentS.xml
 
-  ### Root alignments    
+  ### Create L segment alignment 
   create alignment AL_Lassa_Segment_L_MASTER -r REF_L_MASTER_NC_004297
-  alignment AL_Lassa_Segment_L_MASTER add member --whereClause "segment = 'L' and patent_related = 'false'"
+  alignment AL_Lassa_Segment_L_MASTER add member --whereClause "segment = 'L' and patent_related != 'true'"
   compute alignment AL_Lassa_Segment_L_MASTER lassaCompoundAlignerSegmentL 
 
+  ### Create S segment alignment 
   create alignment AL_Lassa_Segment_S_MASTER -r REF_S_MASTER_NC_004296
-  alignment AL_Lassa_Segment_S_MASTER add member --whereClause "segment = 'S' and patent_related = 'false'"
+  alignment AL_Lassa_Segment_S_MASTER add member --whereClause "segment = 'S' and patent_related != 'true'"
   compute alignment AL_Lassa_Segment_S_MASTER lassaCompoundAlignerSegmentS
-

@@ -1,4 +1,3 @@
-
 delete project lassa
 
 create project lassa "GLUE project for the Lassa Virus" --minVersion 1.1.47
@@ -36,10 +35,11 @@ project lassa
   import source sources/ncbi-curated/
 
   # Populate sequence table fields from GenBank XML
-  run script glue/loadExogenousData.js
   module lassaGenbankXmlPopulator populate
 
   # Import metadata for exogenous reference sequences from tabular
+  run script glue/loadExogenousData.js
+
   module lassaSideDataImporter 
     populate -f tabular/lassa-data.tsv
     exit
