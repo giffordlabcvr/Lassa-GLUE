@@ -1,4 +1,0 @@
-module lassaMissingDataImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/missing_data/m49_countries_locations.tsv
-
-
-module lassaMissingDataImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/missing_data/lassa-hosts.tsv

@@ -35,6 +35,12 @@
         <property>gb_length</property>
     </textFileColumn>
 
+    <textFileColumn>
+        <header>strain</header>
+        <property>isolate_data.m49_country</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+ 
     <skipMissing>true</skipMissing>
 
 </textFilePopulator>

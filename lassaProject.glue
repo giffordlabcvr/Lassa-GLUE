@@ -44,6 +44,8 @@ project lassa
     populate -f tabular/lassa-data.tsv
     exit
 
+  run file glue/lassaImportExcludedSequenceInfo.glue
+
   # Define genome features
   run file glue/lassaFeatures.glue
   

@@ -4,7 +4,7 @@ var multipleHits = [];
 var unrecognised = [];
 
 glue.inMode("module/lassaSegmentRecogniser", function() {
-	recogniserResultObjs = glue.tableToObjects(glue.command(["recognise", "sequence", "-w", "excluded = false"]));
+	recogniserResultObjs = glue.tableToObjects(glue.command(["recognise", "sequence", "-w", "patent_related != 'true'"]));
 })
 
 var querySeqIdToHits = {};

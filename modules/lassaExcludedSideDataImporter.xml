@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<textFilePopulator>
+    <columnDelimiterRegex>\t</columnDelimiterRegex>
+    
+    <textFileColumn>
+        <identifier>true</identifier>
+        <header>accession</header>
+        <property>sequenceID</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>excluded</header>
+        <property>excluded</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>excluded_reason</header>
+        <property>excluded_reason</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+    
+    <skipMissing>true</skipMissing>
+
+</textFilePopulator>
