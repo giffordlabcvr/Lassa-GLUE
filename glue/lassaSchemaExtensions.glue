@@ -1,5 +1,5 @@
   table sequence
-    create field segment VARCHAR 20
+    create field gb_segment VARCHAR 20
     create field gb_length INTEGER
     create field gb_pubmed_id VARCHAR
     create field gb_create_date DATE

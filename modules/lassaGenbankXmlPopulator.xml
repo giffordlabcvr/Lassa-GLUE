@@ -167,7 +167,7 @@
 
 		<!-- #### SEGMENT -->			
 		<gbQualifier name="segment">
-			<propertyPopulator property="segment">
+			<propertyPopulator property="gb_segment">
 				<matchPattern>[a-zA-Z]</matchPattern>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</propertyPopulator>

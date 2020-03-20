@@ -58,6 +58,9 @@ project lassa
   # Create alignments
   run file glue/lassaAlignments.glue
 
+  # Record feature presence
+  run file glue/lassaRecordFeaturePresence.glue
+  
   # Validate
   validate
 

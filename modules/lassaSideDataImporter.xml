@@ -27,7 +27,7 @@
 
     <textFileColumn>
         <header>segment</header>
-        <property>segment</property>
+        <property>gb_segment</property>
     </textFileColumn>
 
    <textFileColumn>
@@ -36,8 +36,8 @@
     </textFileColumn>
 
     <textFileColumn>
-        <header>m49_country</header>
-        <property>isolate_data.m49_country</property>
+        <header>country</header>
+        <property>isolate_data.country</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
     </textFileColumn>
  
