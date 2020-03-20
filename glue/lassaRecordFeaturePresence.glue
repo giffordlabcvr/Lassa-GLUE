@@ -1,0 +1,8 @@
+  delete module lassaFeaturePresenceRecorder
+  create module -f modules/lassaFeaturePresenceRecorder.xml
+
+  module lassaFeaturePresenceRecorder 
+    record feature-presence AL_Lassa_Segment_S_MASTER --recursive -w "sequence.source.name = 'ncbi-curated' and sequence.gb_segment = 'S'" -f S_whole_genome --descendentFeatures
+    record feature-presence AL_Lassa_Segment_L_MASTER --recursive -w "sequence.source.name = 'ncbi-curated' and sequence.gb_segment = 'L'" -f L_whole_genome --descendentFeatures
+    exit
+
