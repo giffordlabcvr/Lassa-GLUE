@@ -1,0 +1,35 @@
+  delete module raxmlPhylogenyGenerator
+  delete module lassaPhyloUtility
+  delete module lassaFigTreeAnnotationExporter
+  
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/lassaPhyloUtility.xml
+  create module -f modules/lassaFigTreeAnnotationExporter.xml
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_Lassa_Segment_L_MASTER -a -o trees/segsL.tre NEWICK_BOOTSTRAPS 
+    exit
+    
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_Lassa_Segment_S_MASTER -a -o trees/segS.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module lassaPhyloUtility
+	reroot-phylogeny \
+      --inputFile trees/segL.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/segLmidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/segS.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/segSmidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+
+
+  module lassaFigTreeAnnotationExporter 
+    export figtree-annotation AL_Lassa_Segment_L_MASTER -f trees/segLfigtreeAnnotations.tsv
+    export figtree-annotation AL_Lassa_Segment_S_MASTER -f trees/segSfigtreeAnnotations.tsv
+  exit
+  
+  
