@@ -6,13 +6,6 @@
   create module -f modules/lassaPhyloUtility.xml
   create module -f modules/lassaFigTreeAnnotationExporter.xml
 
-  module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_Lassa_Segment_L_MASTER -a -o trees/segsL.tre NEWICK_BOOTSTRAPS 
-    exit
-    
-  module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_Lassa_Segment_S_MASTER -a -o trees/segS.tre NEWICK_BOOTSTRAPS
-    exit
 
   module lassaPhyloUtility
 	reroot-phylogeny \

@@ -6,11 +6,11 @@
 	</figTreeAnnotation>
 	<figTreeAnnotation>
 		<annotationName>pubmed_id</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.pubmed_id')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_pubmed_id')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 		<figTreeAnnotation>
 		<annotationName>segment</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.segment')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_segment')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>

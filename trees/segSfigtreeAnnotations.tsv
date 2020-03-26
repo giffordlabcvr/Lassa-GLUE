@@ -1,0 +1,21 @@
+taxon	sequenceID	pubmed_id	segment	host_sci_name	isolate	country	collection_year
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/AY179173	AY179173	14972544	S	-	NL	-	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/AY628201	AY628201	-	S	-	Macenta	-	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/AY628203	AY628203	-	S	Homo sapiens	Josiah	SLE	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/AY628205	AY628205	-	S	-	Z148	-	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/AY628206	AY628206	-	S	-	Weller	-	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/AY628207	AY628207	-	S	-	Pinneo	-	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/AY628208	AY628208	-	S	-	Acar 3080	-	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/GU481061	GU481061	20507773	S	Homo sapiens	Nig07-05	NGA	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/GU481064	GU481064	20507773	S	Homo sapiens	Nig08-02	NGA	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/JN650517	JN650517	-	S	Homo sapiens	Josiah	SLE	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/KU978807	KU978807	-	S	Homo sapiens	-	GIN	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/KU978810	KU978810	-	S	Homo sapiens	-	GIN	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/KU978811	KU978811	-	S	Homo sapiens	-	NGA	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/KY425635	KY425635	-	S	Homo sapiens	-	GIN	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/KY425638	KY425638	-	S	Homo sapiens	-	SLE	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/KY425641	KY425641	-	S	Homo sapiens	-	SLE	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/KY425642	KY425642	-	S	Homo sapiens	-	GIN	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/KY425643	KY425643	-	S	Homo sapiens	-	SLE	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-curated/KY425650	KY425650	-	S	Homo sapiens	-	SLE	-
+alignment/AL_Lassa_Segment_S_MASTER/member/ncbi-refseqs/NC_004296	NC_004296	2916333	S	Homo sapiens	Josiah	SLE	-
