@@ -1,0 +1,15 @@
+  delete module lassaExcludedImporter
+
+  # Populate sequence table fields from GenBank XML
+  module lassaGenbankXmlPopulator populate
+
+  # Import metadata for reference sequences from tabular
+  run script glue/loadExogenousData.js
+
+  module lassaSideDataImporter 
+    populate -f tabular/lassa-data.tsv
+    exit
+
+  # Import information about excluded sequences
+  create module -f modules/lassaExcludedSideDataImporter.xml
+  module lassaExcludedSideDataImporter populate --fileName tabular/reverse_segments.tsv

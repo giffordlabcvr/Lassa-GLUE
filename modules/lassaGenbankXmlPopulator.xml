@@ -3,7 +3,7 @@
 
 	<gbReference>
 		<gbRefPubmed>
-			<propertyPopulator property="pubmed_id"/>
+			<propertyPopulator property="gb_pubmed_id"/>
 		</gbRefPubmed>
 	</gbReference>
 

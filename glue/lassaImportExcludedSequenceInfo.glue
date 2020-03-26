@@ -1,4 +1,0 @@
-delete module lassaExcludedImporter
-
-create module -f modules/lassaExcludedSideDataImporter.xml
-module lassaExcludedSideDataImporter populate --fileName tabular/reverse_segments.tsv

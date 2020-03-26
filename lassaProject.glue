@@ -28,23 +28,15 @@ project lassa
   # create modules
   run file glue/lassaModules.glue
   
+  # Add M49 country code extension
   run file glue/m49_countries/populateM49All.glue
 
   # Import NCBI sources 
   import source sources/ncbi-refseqs/
   import source sources/ncbi-curated/
 
-  # Populate sequence table fields from GenBank XML
-  module lassaGenbankXmlPopulator populate
-
-  # Import metadata for exogenous reference sequences from tabular
-  run script glue/loadExogenousData.js
-
-  module lassaSideDataImporter 
-    populate -f tabular/lassa-data.tsv
-    exit
-
-  run file glue/lassaImportExcludedSequenceInfo.glue
+  # Import sequence-associated side data 
+  run file glue/lassaImportSideData.glue
 
   # Define genome features
   run file glue/lassaFeatures.glue
@@ -54,6 +46,9 @@ project lassa
 
   # Feature locations
   run file glue/lassaExplicitFeatureLocations.glue
+
+  # Run segment recogniser
+  run script glue/lassaPopulateRecogniserSegment.js
 
   # Create alignments
   run file glue/lassaAlignments.glue

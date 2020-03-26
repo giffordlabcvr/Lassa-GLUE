@@ -9,12 +9,12 @@
 
   ### Create L gb_segment alignment 
   create alignment AL_Lassa_Segment_L_MASTER -r REF_L_MASTER_NC_004297
-  alignment AL_Lassa_Segment_L_MASTER add member --whereClause "gb_segment = 'L' and patent_related != 'true' and excluded = null"
+  alignment AL_Lassa_Segment_L_MASTER add member --whereClause "gb_segment = 'L' and patent_related = false and excluded = null"
   compute alignment AL_Lassa_Segment_L_MASTER lassaCompoundAlignerSegmentL 
 
   ### Create S gb_segment alignment 
   create alignment AL_Lassa_Segment_S_MASTER -r REF_S_MASTER_NC_004296
-  alignment AL_Lassa_Segment_S_MASTER add member --whereClause "gb_segment = 'S' and patent_related != 'true' and excluded = null"
+  alignment AL_Lassa_Segment_S_MASTER add member --whereClause "gb_segment = 'S' and patent_related = false and excluded = null"
   compute alignment AL_Lassa_Segment_S_MASTER lassaCompoundAlignerSegmentS
 
 
