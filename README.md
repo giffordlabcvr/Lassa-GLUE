@@ -42,7 +42,6 @@ Data Sources
 Lassa-GLUE relies on the following data sources:
 
 -   [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore)
--   [GISAID](https://gisaid.org/)
 
 Contributing
 ------------
