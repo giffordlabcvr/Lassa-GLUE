@@ -11,7 +11,6 @@ Projects are loaded into the GLUE "engine," forming a relational database that r
 
 **Lassa-GLUE** contains LASV feature definitions, alignments, and reference sequences, designed to facilitate genomic studies across LASV lineages and provide insight into the virus's phylogenomic relationships.
 
-For more information, please see the **[User Guide](https://github.com/giffordlabcvr/Lassa-GLUE/wiki)**
 
 Key Features
 ------------
@@ -20,14 +19,8 @@ Key Features
 
 -   **Rich Annotations**: Annotated reference sequences enable rigorous comparative genomic analysis related to conservation, adaptation, structural context, and genotype-to-phenotype associations.
 
--   **Automated Genotyping**: Lassa-GLUE includes tools for automated genotyping of LASV sequences, utilizing GLUE's **[maximum likelihood clade assignment (MLCA)](https://github.com/giffordlabcvr/Lassa-GLUE/wiki/Genotyping-Tools)** algorithm to support robust lineage classification.
-
 -   **Exploratory and operational**: The GLUE framework allows sequence-based resources to be used for exploratory research and operational work in public health, supporting genomic surveillance and monitoring.
 
-Installation
-------------
-
-Please refer to the **[User Guide](https://github.com/giffordlabcvr/Lassa-GLUE/wiki)** for installation instructions.
 
 Usage
 -----
@@ -59,3 +52,6 @@ Contact
 -------
 
 For questions, issues, or feedback, please open an issue on the [GitHub repository](https://github.com/giffordlabcvr/Lassa-GLUE/issues).
+
+
+* * * * * 
