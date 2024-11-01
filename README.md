@@ -1,8 +1,6 @@
 Lassa-GLUE: Phylogenomic Analysis of Lassa Virus
 ================================================
 
-<img align="right" width="280" height="280" src="md/lassa-glue-logo.png">
-
 Welcome to the GitHub repository for **Lassa-GLUE**!
 
 Lassa-GLUE is a sequence-oriented resource for comparative genomic analysis of Lassa virus (LASV), developed using the **[GLUE](https://github.com/giffordlabcvr/gluetools)** software framework.
